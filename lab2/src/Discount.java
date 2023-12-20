@@ -1,6 +1,12 @@
 public class Discount{
     //discountAmount
     private double discountPercentage;
+    /**
+     * Данный конструктор принимает
+     * следующие параметры:
+     * @param product Прдукт, которому будет присвоена скидка.
+     * @param discountPercentage Скидка в процентном эквиваленте.
+     */
     public Discount(Product product, double discountPercentage) {this.discountPercentage = discountPercentage;}
     public double getDiscountPercentage() {
         return discountPercentage;

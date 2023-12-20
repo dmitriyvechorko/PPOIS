@@ -1,6 +1,12 @@
 public class Person {
     protected String name;
     protected int age;
+    /**
+     * Данный конструктор принимает
+     * следующие параметры:
+     * @param name Имя человека.
+     * @param age Его возраст.
+     */
     public Person(String name, int age) {
         this.name = name;
         this.age = age;

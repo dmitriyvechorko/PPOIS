@@ -2,7 +2,13 @@ public class Product {
     private String name;
     private double price;
     private String category;
-    // Constructor
+    /**
+     * Данный конструктор принимает
+     * следующие параметры:
+     * @param name Наименование продукта.
+     * @param price Цена продукта.
+     * @param category Категория продукта.
+     */
     public Product(String name, double price, String category) {
         this.name = name;
         this.price = price;

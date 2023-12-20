@@ -1,5 +1,10 @@
 public class Payment {
     private double bill;
+    /**
+     * Данный конструктор принимает
+     * лишь один параметр:
+     * @param bill Итоговый счёт.
+     */
     public Payment(double bill) {this.bill = bill;}
     public double getBill() {
         return bill;
